@@ -1,5 +1,6 @@
 # AlvarezLuis_Portfolio
 
+
 ## Project 1: [Mushroom Edibility Model](https://github.com/AlvarezLI/ProjectDS-Mushrooms)  
 This project is part of my final project for a data science course, where I classified different mushrooms based on their edibility.
 
