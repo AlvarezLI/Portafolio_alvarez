@@ -23,6 +23,9 @@
         h2 {
             color: #0056b3;
         }
+        h3 {
+            color: #007bff;
+        }
         ul {
             list-style-type: square;
             margin-left: 20px;
@@ -37,55 +40,88 @@
     </style>
 </head>
 <body>
-    <h1>Portafolio de Luis Ignacio Alvarez</h1>
+    <h1>Portafolio Alvarez Luis Ignacio</h1>
     
     <div class="project">
-        <h2>Proyecto 1: <a href="https://github.com/AlvarezLI/ProjectDS-Mushrooms" target="_blank">Modelo de comestibilidad de hongos</a></h2>
-        <p>Este proyecto es parte de mi proyecto final para un curso de ciencia de datos, donde clasifiqué diferentes hongos según su comestibilidad.</p>
+        <h2>Proyecto 1: <a href="https://github.com/AlvarezLI/ProjectDS-Mushrooms" target="_blank">Modelo de comestibilidad de los hongos</a></h2>
+        <p>Este proyecto es parte de mi entrega final para un curso de ciencia de datos, donde clasifiqué diferentes hongos en función de su comestibilidad.</p>
         
         <h3>Fuente del conjunto de datos</h3>
-        <p>El dataset utilizado es el <strong>Mushroom Classification dataset</strong> de Kaggle, que provee una descripción completa de las características de los hongos.</p>
+        <p>El conjunto de datos utilizado en este proyecto es el <strong>conjunto de datos de clasificación de hongos</strong> de Kaggle, que proporciona una descripción completa de las características de los hongos.</p>
         
-        <h3>Técnicas de Preprocesamiento de Datos</h3>
+        <h3>Técnicas de preprocesamiento de datos</h3>
+        <p>Se emplearon varias técnicas de filtrado para preparar los datos, entre ellas:</p>
         <ul>
-            <li><strong>Verificación de Valores Nulos</strong>: Se gestionaron valores faltantes para asegurar la integridad del dataset.</li>
-            <li><strong>Codificación de Variables Categóricas</strong>: Transformación de características categóricas en valores numéricos para entrenamiento de modelos.</li>
+            <li><strong>Control de valores nulos</strong>: se garantizó la integridad del conjunto de datos mediante el manejo adecuado de los valores faltantes.</li>
+            <li><strong>Codificación de variables categóricas</strong>: se transformaron las características categóricas en valores numéricos para un entrenamiento eficaz del aprendizaje automático.</li>
         </ul>
         
-        <h3>Algoritmos de Machine Learning</h3>
+        <h3>Algoritmos de aprendizaje automático</h3>
+        <p>Se aplicaron los siguientes algoritmos para predecir la comestibilidad de los hongos:</p>
         <ul>
-            <li>Random Forest Classifier</li>
-            <li>Support Vector Machine (SVM)</li>
-            <li>Logistic Regression</li>
+            <li><strong>Clasificador de bosque aleatorio</strong></li>
+            <li><strong>Máquina de vectores de soporte (SVM)</strong></li>
+            <li><strong>Regresión logística</strong></li>
         </ul>
     </div>
     
     <div class="project">
-        <h2>Proyecto 2: <a href="https://github.com/AlvarezLI/ProyectoDSII_ParteI" target="_blank">Modelo de predicción del tiempo</a></h2>
-        <p>En este proyecto, realicé un análisis profundo de un dataset sintético diseñado para clasificar tipos de clima.</p>
+        <h2>Proyecto 2: <a href="https://github.com/AlvarezLI/ProyectoDSII_ParteI" target="_blank">Modelo de predicción meteorológica</a></h2>
+        <p>En este proyecto, realicé un análisis profundo de un conjunto de datos sintéticos diseñado para clasificar diferentes tipos de clima.</p>
         
-        <h3>Técnicas de Preprocesamiento de Datos</h3>
+        <h3>Técnicas de preprocesamiento de datos</h3>
+        <p>Se implementaron las siguientes técnicas para preparar los datos:</p>
         <ul>
-            <li><strong>Manejo e Imputación de Valores Nulos</strong>: Se gestionaron valores faltantes para mantener la calidad del dataset.</li>
-            <li><strong>Codificación de Variables Categóricas</strong>: Se convirtieron variables categóricas en un formato adecuado para el entrenamiento de modelos.</li>
-            <li><strong>Eliminación de Outliers</strong>: Se utilizó el método IQR para eliminar valores atípicos.</li>
+            <li><strong>Manejo e imputación de valores nulos</strong>: Se abordaron los valores faltantes para mantener la calidad del conjunto de datos.</li>
+            <li><strong>Codificación de variables categóricas</strong>: Se convirtieron las variables categóricas a un formato adecuado para el entrenamiento del modelo.</li>
+            <li><strong>Eliminación de valores atípicos</strong>: Se aplicó el método de rango intercuartil (RIC) para eliminar los valores atípicos.</li>
         </ul>
         
-        <h3>Algoritmos de Machine Learning</h3>
+        <h3>Algoritmos de aprendizaje automático</h3>
+        <p>Se implementaron varios algoritmos de clasificación para predecir el tipo de clima, entre ellos:</p>
         <ul>
-            <li>Random Forest Classifier</li>
-            <li>Gradient Boosting Machine (GBM)</li>
-            <li>Logistic Regression</li>
-            <li>Decision Tree Classifier</li>
+            <li><strong>Clasificador de bosque aleatorio</strong></li>
+            <li><strong>Máquina de refuerzo de gradiente (GBM)</strong></li>
+            <li><strong>Regresión logística</strong></li>
+            <li><strong>Clasificador de árbol de decisiones</strong></li>
         </ul>
         
-        <h3>Optimización y Evaluación de Modelos</h3>
+        <h3>Optimización y evaluación de modelos</h3>
+        <p>Se evaluó cada modelo utilizando métricas clave como:</p>
         <ul>
-            <li><strong>Precisión</strong>: Medición de la exactitud general de las predicciones.</li>
-            <li><strong>Matriz de Confusión</strong>: Evaluación del rendimiento de los modelos de clasificación.</li>
+            <li><strong>Precisión</strong>: se midió la exactitud general de las predicciones.</li>
+            <li><strong>Matriz de confusión</strong>: se evaluó el rendimiento de los modelos de clasificación.</li>
         </ul>
-        <p>Se compararon los modelos para identificar el mejor ajuste y se realizó optimización de hiperparámetros para mejorar los resultados.</p>
+        <p>Se compararon los modelos para identificar el que mejor se ajustaba a la predicción de los tipos de clima y se realizó un <strong>ajuste de hiperparámetros</strong> para mejorar los resultados.</p>
+    </div>
+    
+    <div class="project">
+        <h2>Proyecto 3: <a href="https://github.com/AlvarezLI/Project_PublicWorks" target="_blank">Análisis de Obras Públicas en Excel</a></h2>
+        <p>En este proyecto, realicé un análisis exhaustivo de los datos de obras públicas en Argentina, con el objetivo de obtener insights sobre la distribución y el estado de las inversiones en infraestructura a nivel regional.</p>
+        
+        <h3>Fuente del conjunto de datos</h3>
+        <p>El conjunto de datos fue obtenido del Mapa de Inversiones del Ministerio de Obras Públicas de Argentina, que proporciona información detallada sobre las obras públicas en distintas provincias y su estado de avance.</p>
+        
+        <h3>Técnicas de análisis y preprocesamiento de datos</h3>
+        <p>Para procesar y analizar los datos, se utilizaron las siguientes técnicas:</p>
+        <ul>
+            <li><strong>Limpieza y validación de datos</strong>: se eliminaron errores y se validaron los valores, tanto cualitativos como cuantitativos, para asegurar la precisión del análisis.</li>
+            <li><strong>Tablas dinámicas</strong>: se emplearon tablas dinámicas para facilitar la exploración de los datos y obtener respuestas a preguntas clave como la cantidad de obras por tipo, estado y ubicación geográfica.</li>
+            <li><strong>Segmentación de datos</strong>: se añadieron segmentadores para permitir la segmentación dinámica de los datos por categorías, como tipo de obra, año, estado de ejecución y provincia.</li>
+        </ul>
+        
+        <h3>Visualización y dashboard</h3>
+        <p>Se creó un panel visual interactivo en Excel con gráficos y segmentadores que permiten visualizar rápidamente la distribución y el estado de las obras públicas:</p>
+        <ul>
+            <li><strong>Distribución de obras por provincia</strong>: se destacan las provincias con mayor inversión en obras.</li>
+            <li><strong>Clasificación de obras por estado</strong>: se muestra el progreso de las obras (planificadas, en ejecución, finalizadas).</li>
+            <li><strong>Análisis por tipo de obra</strong>: se identifican las categorías de obras prioritarias en inversión pública.</li>
+        </ul>
+        
+        <h3>Resultados Clave</h3>
+        <p>Este análisis permitió obtener una visión general del estado de las obras públicas en Argentina, destacando las regiones con mayor y menor inversión, así como los tipos de proyectos más comunes y su nivel de avance. Estos insights son valiosos para comprender las tendencias de inversión y posibles áreas de mejora en la gestión de obras públicas.</p>
     </div>
 </body>
 </html>
+
 
