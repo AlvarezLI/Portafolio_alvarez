@@ -1,29 +1,44 @@
-# AlvarezLuis_Portfolio
+# Alvarez Luis Portfolio
 
-# [Project 1: Mushroom edibility model](https://github.com/AlvarezLI/ProjectDS-Mushrooms)  
-This is the project I did for a final project of a data science course, where I classified different mushrooms according to their edibility.
+## Project 1: [Mushroom Edibility Model](https://github.com/AlvarezLI/ProjectDS-Mushrooms)  
+This project is part of my final project for a data science course, where I classified different mushrooms based on their edibility.
 
-### Dataset Source: The dataset used in this project is the Mushroom Classification dataset from Kaggle, which provides a detailed description of mushroom characteristics.
+### Dataset Source
+The dataset used in this project is the **Mushroom Classification dataset** from Kaggle, which provides a comprehensive description of mushroom characteristics.
 
-### Filtering Techniques: Various filtering techniques were used to handle data preprocessing, including null value checks and categorical variable encoding for effective machine learning model training.
+### Data Preprocessing Techniques
+Various filtering techniques were employed to prepare the data, including:
+- **Null Value Checks**: Ensured the integrity of the dataset by handling missing values appropriately.
+- **Categorical Variable Encoding**: Transformed categorical features into numerical values for effective machine learning training.
 
-### Machine Learning Algorithms: The following machine learning algorithms were applied to predict mushroom edibility:
-- Random Forest Classifier
-- Support Vector Machine (SVM)
-- Logistic Regression
+### Machine Learning Algorithms
+The following algorithms were applied to predict mushroom edibility:
+- **Random Forest Classifier**
+- **Support Vector Machine (SVM)**
+- **Logistic Regression**
 
-# [Project 2: Weather prediction model](https://github.com/AlvarezLI/ProyectoDSII_ParteI)  
+---
+
+## Project 2: [Weather Prediction Model](https://github.com/AlvarezLI/ProyectoDSII_ParteI)  
 In this project, I conducted an in-depth analysis of a synthetic dataset designed to classify different climate types.
 
-### Data Preprocessing Techniques:
-- Null value handling and imputation.
-- Categorical variable encoding for machine learning model training.
-- Outlier removal using the interquartile range (IQR) method.
+### Data Preprocessing Techniques
+The following techniques were implemented to prepare the data:
+- **Null Value Handling and Imputation**: Addressed missing values to maintain dataset quality.
+- **Categorical Variable Encoding**: Converted categorical variables into a format suitable for model training.
+- **Outlier Removal**: Applied the interquartile range (IQR) method to eliminate outliers.
 
-### Machine Learning Algorithms: Several classification algorithms were implemented to predict the weather type, including:
-- Random Forest Classifier
-- Gradient Boosting Machine (GBM)
-- Logistic Regression
-- Decision Tree Classifier
+### Machine Learning Algorithms
+Several classification algorithms were implemented to predict the weather type, including:
+- **Random Forest Classifier**
+- **Gradient Boosting Machine (GBM)**
+- **Logistic Regression**
+- **Decision Tree Classifier**
 
-### Model Optimization and Evaluation: Each model was evaluated using key metrics like accuracy and a confusion matrix to measure classification performance. Models were compared to identify the best fit for predicting weather types, and hyperparameter tuning was performed to enhance results.
+### Model Optimization and Evaluation
+Each model was evaluated using key metrics such as:
+- **Accuracy**: Measured the overall correctness of the predictions.
+- **Confusion Matrix**: Assessed the performance of the classification models.
+
+Models were compared to identify the best fit for predicting weather types, and **hyperparameter tuning** was performed to enhance results.
+
