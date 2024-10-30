@@ -1,7 +1,6 @@
 # AlvarezLuis_Portfolio
 
-## Project 1: [Mushroom Edibility Model](https://github.com/AlvarezLI/ProjectDS-Mushrooms)
-
+## Project 1: [Mushroom Edibility Model](https://github.com/AlvarezLI/ProjectDS-Mushrooms)  
 This project is part of my final project for a data science course, where I classified different mushrooms based on their edibility.
 
 ### Dataset Source
@@ -18,10 +17,7 @@ The following algorithms were applied to predict mushroom edibility:
 - **Support Vector Machine (SVM)**
 - **Logistic Regression**
 
----
-
-## Project 2: [Weather Prediction Model](https://github.com/AlvarezLI/ProyectoDSII_ParteI)
-
+## Project 2: [Weather Prediction Model](https://github.com/AlvarezLI/ProyectoDSII_ParteI)  
 In this project, I conducted an in-depth analysis of a synthetic dataset designed to classify different climate types.
 
 ### Data Preprocessing Techniques
