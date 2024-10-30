@@ -8,93 +8,83 @@
         body {
             font-family: Arial, sans-serif;
             margin: 0;
-            padding: 0;
-            background-color: #f4f4f9;
-            color: #333;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            min-height: 100vh;
-        }
-        .container {
-            max-width: 800px;
             padding: 20px;
-            text-align: left;
-            background-color: #fff;
-            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
-            border-radius: 8px;
-        }
-        h1, h2 {
-            text-align: center;
+            background-color: #f9f9f9;
             color: #333;
-        }
-        h3 {
-            color: #333;
-            margin-bottom: 5px;
-        }
-        p {
             line-height: 1.6;
         }
+        h1 {
+            color: #444;
+            text-align: center;
+        }
+        .project {
+            margin-bottom: 30px;
+        }
+        h2 {
+            color: #0056b3;
+        }
+        ul {
+            list-style-type: square;
+            margin-left: 20px;
+        }
         a {
-            color: #007bff;
+            color: #0056b3;
             text-decoration: none;
         }
         a:hover {
             text-decoration: underline;
         }
-        .project {
-            margin-bottom: 20px;
-        }
     </style>
 </head>
 <body>
-    <div class="container">
-        <h1>Portafolio de Luis Ignacio Álvarez</h1>
-        <p>Bienvenido a mi portafolio de proyectos en ciencia de datos. A continuación, puedes explorar algunos de los proyectos en los que he trabajado:</p>
+    <h1>Portafolio de Luis Ignacio Álvarez</h1>
+    
+    <div class="project">
+        <h2>Project 1: <a href="https://github.com/AlvarezLI/ProjectDS-Mushrooms" target="_blank">Mushroom Edibility Model</a></h2>
+        <p>Este proyecto es parte de mi proyecto final para un curso de ciencia de datos, donde clasifiqué diferentes hongos según su comestibilidad.</p>
         
-        <div class="project">
-            <h2>Project 1: <a href="https://github.com/AlvarezLI/ProjectDS-Mushrooms" target="_blank">Mushroom Edibility Model</a></h2>
-            <h3>Descripción:</h3>
-            <p>Este proyecto es parte de mi proyecto final para un curso de ciencia de datos, en el cual clasifiqué diferentes hongos en base a su comestibilidad.</p>
-            <h3>Dataset Source:</h3>
-            <p>El dataset utilizado es el <strong>Mushroom Classification dataset</strong> de Kaggle, que provee una descripción detallada de las características de los hongos.</p>
-            <h3>Técnicas de Preprocesamiento de Datos:</h3>
-            <ul>
-                <li>Verificación de valores nulos: Asegura la integridad del dataset al gestionar los valores faltantes adecuadamente.</li>
-                <li>Codificación de variables categóricas: Transformación de características categóricas en valores numéricos para el entrenamiento efectivo de modelos de machine learning.</li>
-            </ul>
-            <h3>Algoritmos de Machine Learning:</h3>
-            <ul>
-                <li>Random Forest Classifier</li>
-                <li>Support Vector Machine (SVM)</li>
-                <li>Logistic Regression</li>
-            </ul>
-        </div>
+        <h3>Dataset Source</h3>
+        <p>El dataset utilizado es el <strong>Mushroom Classification dataset</strong> de Kaggle, que provee una descripción completa de las características de los hongos.</p>
         
-        <div class="project">
-            <h2>Project 2: <a href="https://github.com/AlvarezLI/ProyectoDSII_ParteI" target="_blank">Weather Prediction Model</a></h2>
-            <h3>Descripción:</h3>
-            <p>En este proyecto, realicé un análisis exhaustivo de un dataset sintético diseñado para clasificar distintos tipos de clima.</p>
-            <h3>Técnicas de Preprocesamiento de Datos:</h3>
-            <ul>
-                <li>Manejo y imputación de valores nulos: Mantenimiento de la calidad del dataset.</li>
-                <li>Codificación de variables categóricas: Conversión de variables categóricas en un formato adecuado para el entrenamiento de modelos.</li>
-                <li>Eliminación de outliers: Aplicación del método IQR para eliminar valores atípicos.</li>
-            </ul>
-            <h3>Algoritmos de Machine Learning:</h3>
-            <ul>
-                <li>Random Forest Classifier</li>
-                <li>Gradient Boosting Machine (GBM)</li>
-                <li>Logistic Regression</li>
-                <li>Decision Tree Classifier</li>
-            </ul>
-            <h3>Optimización y Evaluación de Modelos:</h3>
-            <ul>
-                <li>Precisión: Medición de la exactitud general de las predicciones.</li>
-                <li>Matriz de Confusión: Evaluación del rendimiento de los modelos de clasificación.</li>
-            </ul>
-            <p>Se realizó una comparación de modelos para identificar el mejor ajuste para la predicción del tipo de clima, además de la optimización de hiperparámetros para mejorar los resultados.</p>
-        </div>
+        <h3>Técnicas de Preprocesamiento de Datos</h3>
+        <ul>
+            <li><strong>Verificación de Valores Nulos</strong>: Se gestionaron valores faltantes para asegurar la integridad del dataset.</li>
+            <li><strong>Codificación de Variables Categóricas</strong>: Transformación de características categóricas en valores numéricos para entrenamiento de modelos.</li>
+        </ul>
+        
+        <h3>Algoritmos de Machine Learning</h3>
+        <ul>
+            <li>Random Forest Classifier</li>
+            <li>Support Vector Machine (SVM)</li>
+            <li>Logistic Regression</li>
+        </ul>
+    </div>
+    
+    <div class="project">
+        <h2>Project 2: <a href="https://github.com/AlvarezLI/ProyectoDSII_ParteI" target="_blank">Weather Prediction Model</a></h2>
+        <p>En este proyecto, realicé un análisis profundo de un dataset sintético diseñado para clasificar tipos de clima.</p>
+        
+        <h3>Técnicas de Preprocesamiento de Datos</h3>
+        <ul>
+            <li><strong>Manejo e Imputación de Valores Nulos</strong>: Se gestionaron valores faltantes para mantener la calidad del dataset.</li>
+            <li><strong>Codificación de Variables Categóricas</strong>: Se convirtieron variables categóricas en un formato adecuado para el entrenamiento de modelos.</li>
+            <li><strong>Eliminación de Outliers</strong>: Se utilizó el método IQR para eliminar valores atípicos.</li>
+        </ul>
+        
+        <h3>Algoritmos de Machine Learning</h3>
+        <ul>
+            <li>Random Forest Classifier</li>
+            <li>Gradient Boosting Machine (GBM)</li>
+            <li>Logistic Regression</li>
+            <li>Decision Tree Classifier</li>
+        </ul>
+        
+        <h3>Optimización y Evaluación de Modelos</h3>
+        <ul>
+            <li><strong>Precisión</strong>: Medición de la exactitud general de las predicciones.</li>
+            <li><strong>Matriz de Confusión</strong>: Evaluación del rendimiento de los modelos de clasificación.</li>
+        </ul>
+        <p>Se compararon los modelos para identificar el mejor ajuste y se realizó optimización de hiperparámetros para mejorar los resultados.</p>
     </div>
 </body>
 </html>
