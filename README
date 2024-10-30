@@ -1,6 +1,6 @@
 # AlvarezLuis_Portfolio
 
-#[Project 1: Mushroom edibility model](https://github.com/AlvarezLI/ProjectDS-Mushrooms)  
+# [Project 1: Mushroom edibility model](https://github.com/AlvarezLI/ProjectDS-Mushrooms)  
 This is the project I did for a final project of a data science course, where I classified different mushrooms according to their edibility.
 
 ### Dataset Source: The dataset used in this project is the Mushroom Classification dataset from Kaggle, which provides a detailed description of mushroom characteristics.
@@ -12,7 +12,7 @@ This is the project I did for a final project of a data science course, where I 
 - Support Vector Machine (SVM)
 - Logistic Regression
 
-#[Project 2: Weather prediction model](https://github.com/AlvarezLI/ProyectoDSII_ParteI)  
+# [Project 2: Weather prediction model](https://github.com/AlvarezLI/ProyectoDSII_ParteI)  
 In this project, I conducted an in-depth analysis of a synthetic dataset designed to classify different climate types.
 
 ### Data Preprocessing Techniques:
