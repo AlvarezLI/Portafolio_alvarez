@@ -1,41 +1,42 @@
-# AlvarezLuis_Portfolio
+# Portafolio Alvarez Luis Ignacio
 
-## Project 1: [Mushroom Edibility Model](https://github.com/AlvarezLI/ProjectDS-Mushrooms)  
-This project is part of my final project for a data science course, where I classified different mushrooms based on their edibility.
+## Proyecto 1: [Modelo de comestibilidad de los hongos]](https://github.com/AlvarezLI/ProjectDS-Mushrooms)  
+Este proyecto es parte de mi entrega final para un curso de ciencia de datos, donde clasifiqué diferentes hongos en función de su comestibilidad.
 
-### Dataset Source
-The dataset used in this project is the **Mushroom Classification dataset** from Kaggle, which provides a comprehensive description of mushroom characteristics.
+### Fuente del conjunto de datos
+El conjunto de datos utilizado en este proyecto es el **conjunto de datos de clasificación de hongos** de Kaggle, que proporciona una descripción completa de las características de los hongos.
 
-### Data Preprocessing Techniques
-Various filtering techniques were employed to prepare the data, including:
-- **Null Value Checks**: Ensured the integrity of the dataset by handling missing values appropriately.
-- **Categorical Variable Encoding**: Transformed categorical features into numerical values for effective machine learning training.
+### Técnicas de preprocesamiento de datos
+Se emplearon varias técnicas de filtrado para preparar los datos, entre ellas:
+- **Control de valores nulos**: se garantizó la integridad del conjunto de datos mediante el manejo adecuado de los valores faltantes.
+- **Codificación de variables categóricas**: se transformaron las características categóricas en valores numéricos para un entrenamiento eficaz del aprendizaje automático.
 
-### Machine Learning Algorithms
-The following algorithms were applied to predict mushroom edibility:
-- **Random Forest Classifier**
-- **Support Vector Machine (SVM)**
-- **Logistic Regression**
+### Algoritmos de aprendizaje automático
+Se aplicaron los siguientes algoritmos para predecir la comestibilidad de los hongos:
+- **Clasificador de bosque aleatorio**
+- **Máquina de vectores de soporte (SVM)**
+- **Regresión logística**
 
-## Project 2: [Weather Prediction Model](https://github.com/AlvarezLI/ProyectoDSII_ParteI)  
-In this project, I conducted an in-depth analysis of a synthetic dataset designed to classify different climate types.
 
-### Data Preprocessing Techniques
-The following techniques were implemented to prepare the data:
-- **Null Value Handling and Imputation**: Addressed missing values to maintain dataset quality.
-- **Categorical Variable Encoding**: Converted categorical variables into a format suitable for model training.
-- **Outlier Removal**: Applied the interquartile range (IQR) method to eliminate outliers.
+## Proyecto 2: [Modelo de predicción meteorológica](https://github.com/AlvarezLI/ProyectoDSII_ParteI) 
+En este proyecto, realicé un análisis profundo de un conjunto de datos sintéticos diseñado para clasificar diferentes tipos de clima.
 
-### Machine Learning Algorithms
-Several classification algorithms were implemented to predict the weather type, including:
-- **Random Forest Classifier**
-- **Gradient Boosting Machine (GBM)**
-- **Logistic Regression**
-- **Decision Tree Classifier**
+### Técnicas de preprocesamiento de datos
+Se implementaron las siguientes técnicas para preparar los datos:
+- **Manejo e imputación de valores nulos**: Se abordaron los valores faltantes para mantener la calidad del conjunto de datos.
+- **Codificación de variables categóricas**: Se convirtieron las variables categóricas a un formato adecuado para el entrenamiento del modelo.
+- **Eliminación de valores atípicos**: Se aplicó el método de rango intercuartil (RIC) para eliminar los valores atípicos.
+  
+### Algoritmos de aprendizaje automático
+Se implementaron varios algoritmos de clasificación para predecir el tipo de clima, entre ellos:
+- **Clasificador de bosque aleatorio**
+- **Máquina de refuerzo de gradiente (GBM)**
+- **Regresión logística**
+- **Clasificador de árbol de decisiones**
 
-### Model Optimization and Evaluation
-Each model was evaluated using key metrics such as:
-- **Accuracy**: Measured the overall correctness of the predictions.
-- **Confusion Matrix**: Assessed the performance of the classification models.
+### Optimización y evaluación de modelos
+Se evaluó cada modelo utilizando métricas clave como:
+- **Precisión**: se midió la exactitud general de las predicciones.
+- **Matriz de confusión**: se evaluó el rendimiento de los modelos de clasificación.
 
-Models were compared to identify the best fit for predicting weather types, and **hyperparameter tuning** was performed to enhance results.
+Se compararon los modelos para identificar el que mejor se ajustaba a la predicción de los tipos de clima y se realizó un **ajuste de hiperparámetros** para mejorar los resultados.
