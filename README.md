@@ -41,7 +41,7 @@ Se evaluó cada modelo utilizando métricas clave como:
 
 Se compararon los modelos para identificar el que mejor se ajustaba a la predicción de los tipos de clima y se realizó un **ajuste de hiperparámetros** para mejorar los resultados.
 
-# Proyecto 3: Análisis de Obras Públicas en Excel
+# Proyecto 3: [Análisis de Obras Públicas en Excel](https://github.com/AlvarezLI/Project_PublicWorks) 
 
 En este proyecto, realicé un análisis exhaustivo de los datos de obras públicas en Argentina, con el objetivo de obtener insights sobre la distribución y el estado de las inversiones en infraestructura a nivel regional.
 
