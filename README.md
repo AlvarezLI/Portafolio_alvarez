@@ -1,6 +1,6 @@
 # Portafolio Alvarez Luis Ignacio
 
-## Proyecto 1: [Modelo de comestibilidad de los hongos]](https://github.com/AlvarezLI/ProjectDS-Mushrooms)  
+## Proyecto 1: [Modelo de comestibilidad de los hongos](https://github.com/AlvarezLI/ProjectDS-Mushrooms)  
 Este proyecto es parte de mi entrega final para un curso de ciencia de datos, donde clasifiqué diferentes hongos en función de su comestibilidad.
 
 ### Fuente del conjunto de datos
