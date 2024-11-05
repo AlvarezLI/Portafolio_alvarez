@@ -100,13 +100,12 @@ Se desarrolló un dashboard en Power BI que permite explorar diferentes aspectos
 Este análisis proporciona una visión integral de la participación en festividades populares en Argentina, destacando tendencias en la asistencia, distribución geográfica de los eventos, y temáticas predominantes. Los insights obtenidos son útiles para la planificación de futuras festividades y la evaluación de la participación del público.
 
 ---
-
 ## Proyecto 5: [Análisis de música en Spotify](https://github.com/AlvarezLI/PowerBI_Spotify)
 
 Este proyecto se centra en el análisis de datos de canciones en Spotify, con el objetivo de explorar las características musicales y la popularidad de diferentes pistas.
 
 ### Fuente del conjunto de datos
-El conjunto de datos utilizado en este proyecto proviene de la **API de Spotify**, que proporciona información detallada sobre diversas canciones, incluyendo atributos como el tempo, la energía, la danza y la popularidad.
+El conjunto de datos utilizado en este proyecto fue descargado de **Kaggle**, que proporciona información detallada sobre diversas canciones, incluyendo atributos como el tempo, la energía, la danza y la popularidad.
 
 ### Técnicas de preprocesamiento de datos
 Se implementaron varias técnicas de preprocesamiento para preparar los datos para el análisis:
@@ -125,4 +124,3 @@ Se realizaron diversos análisis y visualizaciones para obtener insights sobre l
 ### Resultados Clave
 Este análisis permitió identificar las características musicales que más influyen en la popularidad de las canciones en Spotify, así como las tendencias en el tiempo. Los insights obtenidos son valiosos para comprender cómo las preferencias de los oyentes cambian y qué atributos musicales son más atractivos.
 
----
