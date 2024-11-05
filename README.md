@@ -76,4 +76,29 @@ Este análisis permitió obtener una visión general del estado de las obras pú
 
 ---
 
+## Proyecto 4: [Fiestas Populares en Argentina](https://github.com/AlvarezLI/PowerBi-CostumbresArg/tree/main)
+
+Este proyecto se centra en el análisis de eventos y festividades populares en Argentina a través de un informe desarrollado en **Power BI**. Se busca explorar la asistencia a eventos, la ubicación de los mismos, y la temática de cada evento.
+
+### Fuente del conjunto de datos
+El conjunto de datos utilizado en este proyecto es una recopilación de información sobre eventos y festividades populares en Argentina, que incluye detalles como la cantidad de asistentes, la ubicación de los eventos, y la temática de cada evento.
+
+### Técnicas de análisis y preprocesamiento de datos
+Para preparar y analizar los datos, se utilizaron las siguientes técnicas:
+
+- **Control de valores nulos**: Se manejaron adecuadamente los valores faltantes para asegurar la integridad del conjunto de datos.
+- **Codificación de variables categóricas**: Se transformaron las características categóricas en valores numéricos, lo cual es fundamental para el análisis de datos.
+  
+### Visualización y análisis
+Se desarrolló un dashboard en Power BI que permite explorar diferentes aspectos de los eventos:
+
+- **Asistentes**: Incluye gráficos que muestran la cantidad de asistentes por mes, año y tipo de entrada, junto con KPIs que resaltan la asistencia total y promedio a eventos.
+- **Información**: Presenta un mapa que muestra la distribución de eventos por provincia, un KPI de eventos únicos y un gráfico de asistentes promedio por provincia.
+- **Temática**: Permite explorar la temática de los eventos, mostrando la clasificación por tipo de entrada y la cantidad de eventos según su temática principal, además de KPIs relevantes como el evento más popular.
+
+### Resultados Clave
+Este análisis proporciona una visión integral de la participación en festividades populares en Argentina, destacando tendencias en la asistencia, distribución geográfica de los eventos, y temáticas predominantes. Los insights obtenidos son útiles para la planificación de futuras festividades y la evaluación de la participación del público.
+
+---
+
 
