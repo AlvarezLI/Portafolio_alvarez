@@ -101,7 +101,7 @@ Este análisis proporciona una visión integral de la participación en festivid
 
 ---
 
-## Proyecto 5: [Análisis de música en Spotify](https://github.com/AlvarezLI/ProjectSpotify)
+## Proyecto 5: [Análisis de música en Spotify](https://github.com/AlvarezLI/PowerBI_Spotify)
 
 Este proyecto se centra en el análisis de datos de canciones en Spotify, con el objetivo de explorar las características musicales y la popularidad de diferentes pistas.
 
