@@ -101,4 +101,28 @@ Este análisis proporciona una visión integral de la participación en festivid
 
 ---
 
+## Proyecto 5: [Análisis de música en Spotify](https://github.com/AlvarezLI/ProjectSpotify)
 
+Este proyecto se centra en el análisis de datos de canciones en Spotify, con el objetivo de explorar las características musicales y la popularidad de diferentes pistas.
+
+### Fuente del conjunto de datos
+El conjunto de datos utilizado en este proyecto proviene de la **API de Spotify**, que proporciona información detallada sobre diversas canciones, incluyendo atributos como el tempo, la energía, la danza y la popularidad.
+
+### Técnicas de preprocesamiento de datos
+Se implementaron varias técnicas de preprocesamiento para preparar los datos para el análisis:
+
+- **Manejo de valores nulos**: Se identificaron y gestionaron los valores faltantes para mantener la calidad del conjunto de datos.
+- **Normalización de datos**: Se aplicó la normalización a las características numéricas para asegurar que todos los atributos contribuyan equitativamente al análisis.
+- **Codificación de variables categóricas**: Las características categóricas se transformaron en un formato adecuado para el análisis y la visualización.
+
+### Análisis y visualización
+Se realizaron diversos análisis y visualizaciones para obtener insights sobre las canciones:
+
+- **Distribución de características musicales**: Se exploraron gráficos que muestran la distribución de atributos como el tempo, la energía y la danza de las canciones.
+- **Relación entre popularidad y características**: Se analizaron gráficos de dispersión para observar cómo las diferentes características musicales afectan la popularidad de las canciones.
+- **Tendencias a lo largo del tiempo**: Se examinaron las tendencias en la popularidad de las canciones a lo largo del tiempo y cómo las características musicales han cambiado.
+
+### Resultados Clave
+Este análisis permitió identificar las características musicales que más influyen en la popularidad de las canciones en Spotify, así como las tendencias en el tiempo. Los insights obtenidos son valiosos para comprender cómo las preferencias de los oyentes cambian y qué atributos musicales son más atractivos.
+
+---
