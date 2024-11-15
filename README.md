@@ -1,126 +1,119 @@
 # Portafolio Alvarez Luis Ignacio
 
-## Proyecto 1: [Modelo de comestibilidad de los hongos](https://github.com/AlvarezLI/ProjectDS-Mushrooms)  
-Este proyecto es parte de mi entrega final para un curso de ciencia de datos, donde clasifiqué diferentes hongos en función de su comestibilidad.
+¡Bienvenido a mi portafolio de ciencia de datos! En esta colección, encontrarás varios proyectos que demuestran mis habilidades en análisis de datos, aprendizaje automático y visualización de datos. El portafolio incluye proyectos tanto en **inglés** como en **español**, reflejando mis capacidades bilingües.
 
-### Fuente del conjunto de datos
-El conjunto de datos utilizado en este proyecto es el **conjunto de datos de clasificación de hongos** de Kaggle, que proporciona una descripción completa de las características de los hongos.
+---
+#  Data Science Projects (English)
+---
 
-### Técnicas de preprocesamiento de datos
-Se emplearon varias técnicas de filtrado para preparar los datos, entre ellas:
-- **Control de valores nulos**: se garantizó la integridad del conjunto de datos mediante el manejo adecuado de los valores faltantes.
-- **Codificación de variables categóricas**: se transformaron las características categóricas en valores numéricos para un entrenamiento eficaz del aprendizaje automático.
+## Proyecto 1: [Modelo de Comestibilidad de Hongos](https://github.com/AlvarezLI/ProjectDS-Mushrooms)  
+Este proyecto es parte de mi examen final para un curso de ciencia de datos, donde clasifiqué diferentes hongos en función de su comestibilidad.
 
-### Algoritmos de aprendizaje automático
+### Fuente del Dataset
+El conjunto de datos utilizado en este proyecto es el **Mushroom Classification dataset** de Kaggle, que proporciona una descripción completa de las características de los hongos.
+
+### Técnicas de Preprocesamiento de Datos
+Se emplearon diversas técnicas de filtrado para preparar los datos, incluyendo:
+- **Revisión de Valores Nulos**: Se garantizó la integridad del conjunto de datos manejando adecuadamente los valores faltantes.
+- **Codificación de Variables Categóricas**: Se transformaron las características categóricas en valores numéricos para un entrenamiento efectivo de los modelos de aprendizaje automático.
+
+### Algoritmos de Aprendizaje Automático
 Se aplicaron los siguientes algoritmos para predecir la comestibilidad de los hongos:
-- **Clasificador de bosque aleatorio**
-- **Máquina de vectores de soporte (SVM)**
-- **Regresión logística**
+- **Random Forest Classifier**
+- **Support Vector Machine (SVM)**
+- **Logistic Regression**
 
 ---
 
-## Proyecto 2: [Modelo de predicción meteorológica](https://github.com/AlvarezLI/ProyectoDSII_ParteI) 
-En este proyecto, realicé un análisis profundo de un conjunto de datos sintéticos diseñado para clasificar diferentes tipos de clima.
+## Proyecto 2: [Modelo de Predicción del Clima](https://github.com/AlvarezLI/ProyectoDSII_ParteI)  
+En este proyecto, realicé un análisis profundo de un conjunto de datos sintético diseñado para clasificar diferentes tipos de clima.
 
-### Técnicas de preprocesamiento de datos
+### Técnicas de Preprocesamiento de Datos
 Se implementaron las siguientes técnicas para preparar los datos:
-- **Manejo e imputación de valores nulos**: Se abordaron los valores faltantes para mantener la calidad del conjunto de datos.
-- **Codificación de variables categóricas**: Se convirtieron las variables categóricas a un formato adecuado para el entrenamiento del modelo.
-- **Eliminación de valores atípicos**: Se aplicó el método de rango intercuartil (RIC) para eliminar los valores atípicos.
-  
-### Algoritmos de aprendizaje automático
-Se implementaron varios algoritmos de clasificación para predecir el tipo de clima, entre ellos:
-- **Clasificador de bosque aleatorio**
-- **Máquina de refuerzo de gradiente (GBM)**
-- **Regresión logística**
-- **Clasificador de árbol de decisiones**
+- **Manejo e Imputación de Valores Nulos**: Se abordaron los valores faltantes para mantener la calidad del conjunto de datos.
+- **Codificación de Variables Categóricas**: Se convirtieron las variables categóricas en un formato adecuado para el entrenamiento de modelos.
+- **Eliminación de Valores Atípicos**: Se aplicó el método del rango intercuartílico (IQR) para eliminar valores atípicos.
 
-### Optimización y evaluación de modelos
-Se evaluó cada modelo utilizando métricas clave como:
-- **Precisión**: se midió la exactitud general de las predicciones.
-- **Matriz de confusión**: se evaluó el rendimiento de los modelos de clasificación.
+### Algoritmos de Aprendizaje Automático
+Se implementaron varios algoritmos de clasificación para predecir el tipo de clima, incluyendo:
+- **Random Forest Classifier**
+- **Gradient Boosting Machine (GBM)**
+- **Logistic Regression**
+- **Decision Tree Classifier**
 
-Se compararon los modelos para identificar el que mejor se ajustaba a la predicción de los tipos de clima y se realizó un **ajuste de hiperparámetros** para mejorar los resultados.
+### Optimización y Evaluación de Modelos
+Cada modelo fue evaluado utilizando métricas clave como:
+- **Precisión**: Medición de la corrección global de las predicciones.
+- **Matriz de Confusión**: Evaluación del rendimiento de los modelos de clasificación.
+
+Se compararon los modelos para identificar el mejor ajuste para predecir los tipos de clima, y se realizó una **optimización de hiperparámetros** para mejorar los resultados.
+
+---
+# Proyectos de Data Analytics (Español)
+---
+
+## Proyecto 3: [Análisis de Obras Públicas en Excel y Tableau](https://github.com/AlvarezLI/Excel-Tableau_PublicWorks)  
+Este proyecto se enfoca en realizar un análisis extenso de los datos de obras públicas en Argentina. El objetivo fue obtener información sobre la distribución y el estado de las inversiones en infraestructura a nivel regional, utilizando **Excel** y **Tableau** para una mejor visualización y análisis de los datos.
+
+### Fuente del Dataset
+El dataset fue obtenido del **Mapa de Inversiones del Ministerio de Obras Públicas de Argentina**, que proporciona información detallada sobre las obras públicas en diversas provincias y su estado de avance.
+
+### Técnicas de Análisis y Preprocesamiento de Datos
+Para procesar y analizar los datos, se emplearon las siguientes técnicas:
+- **Limpieza y Validación de Datos**: Se eliminaron errores y se validaron los valores cualitativos y cuantitativos para garantizar la precisión del análisis.
+- **Tablas Dinámicas**: Se utilizaron tablas dinámicas para facilitar la exploración de datos y obtener respuestas a preguntas clave, como el número de obras por tipo, estado y ubicación geográfica.
+- **Segmentación de Datos**: Se añadieron segmentadores para permitir una segmentación dinámica de los datos por categorías como tipo de obra, año, estado de ejecución y provincia.
+
+### Visualización y Dashboard
+Se creó un panel visual interactivo en Excel y Tableau, lo que mejoró la interpretación de los datos:
+- **Dashboard en Excel**: Un panel interactivo con gráficos y segmentadores que permiten una visualización rápida de la distribución y el estado de las obras públicas.
+- **Dashboard en Tableau**: Visualización avanzada que permite la exploración visual de los datos y la filtración por diferentes variables de interés.
+
+### Resultados Clave
+Este análisis proporcionó una visión general sobre el estado de las obras públicas en Argentina, destacando las regiones con mayor y menor inversión, así como los tipos de proyectos más comunes y su nivel de avance.
 
 ---
 
-## Proyecto 3: [Análisis de Obras Públicas en Excel y Tableau](https://github.com/AlvarezLI/Project_PublicWorks) 
+## Proyecto 4: [Análisis de Festivales Populares en Argentina](https://github.com/AlvarezLI/PowerBi-CostumbresArg)  
+Este proyecto está enfocado en analizar eventos y festivales populares en Argentina a través de un informe en **Power BI**. El objetivo fue explorar la asistencia a los eventos, sus ubicaciones y los temas de cada evento.
 
-En este proyecto, realicé un análisis exhaustivo de los datos de obras públicas en Argentina, con el objetivo de obtener insights sobre la distribución y el estado de las inversiones en infraestructura a nivel regional, utilizando tanto **Excel** como **Tableau** para optimizar la visualización y el análisis de los datos.
+### Fuente del Dataset
+El dataset utilizado en este proyecto es una compilación de información sobre eventos y festivales populares en Argentina, que incluye detalles como el número de asistentes, la ubicación de los eventos y los temas de los mismos.
 
-### Fuente del conjunto de datos
-El conjunto de datos fue obtenido del **Mapa de Inversiones del Ministerio de Obras Públicas de Argentina**, que proporciona información detallada sobre las obras públicas en distintas provincias y su estado de avance.
+### Técnicas de Preprocesamiento de Datos
+- **Control de Valores Nulos**: Se manejaron adecuadamente los valores faltantes para garantizar la integridad del dataset.
+- **Codificación de Variables Categóricas**: Las características categóricas se transformaron en valores numéricos, lo cual es esencial para el análisis de los datos.
 
-### Técnicas de análisis y preprocesamiento de datos
-Para procesar y analizar los datos, se utilizaron las siguientes técnicas:
-
-- **Limpieza y validación de datos**: se eliminaron errores y se validaron los valores, tanto cualitativos como cuantitativos, para asegurar la precisión del análisis.
-- **Tablas dinámicas**: se emplearon tablas dinámicas en Excel para facilitar la exploración de los datos y obtener respuestas a preguntas clave como la cantidad de obras por tipo, estado y ubicación geográfica.
-- **Segmentación de datos**: se añadieron segmentadores para permitir la segmentación dinámica de los datos por categorías, como tipo de obra, año, estado de ejecución y provincia.
-
-### Visualización y dashboards
-Para mejorar la interpretación de los datos, se crearon paneles visuales interactivos tanto en **Excel** como en **Tableau**:
-
-- **Dashboard en Excel**: se diseñó un panel interactivo con gráficos y segmentadores que permiten visualizar rápidamente la distribución y el estado de las obras públicas:
-  - **Distribución de obras por provincia**: se destacan las provincias con mayor inversión en obras.
-  - **Clasificación de obras por estado**: se muestra el progreso de las obras (planificadas, en ejecución, finalizadas).
-  - **Análisis por tipo de obra**: se identifican las categorías de obras prioritarias en inversión pública.
-
-- **Dashboard en Tableau**: Se creó una visualización avanzada que facilita una exploración visual de los datos y permite filtrar y segmentar las obras según diferentes variables de interés:
-  - **Mapa interactivo**: que muestra la distribución geográfica de las obras a nivel provincial.
-  - **Análisis temporal**: que permite visualizar el progreso de las obras en distintos años.
-  - **Desglose por tipo y estado de obra**: facilitando el análisis de las categorías de obra más relevantes y su estado actual.
+### Visualización y Análisis
+Se desarrolló un dashboard interactivo en Power BI para explorar diferentes aspectos de los eventos:
+- **Asistencia**: Incluye gráficos que muestran el número de asistentes por mes, año y tipo de entrada.
+- **Información de los Eventos**: Un mapa muestra la distribución de los eventos por provincia.
+- **Análisis de Temas**: Permite explorar los temas de los eventos, mostrando la clasificación por tipo de entrada y el número de eventos por tema.
 
 ### Resultados Clave
-Este análisis permitió obtener una visión general del estado de las obras públicas en Argentina, destacando las regiones con mayor y menor inversión, así como los tipos de proyectos más comunes y su nivel de avance. Estos insights son valiosos para comprender las tendencias de inversión y posibles áreas de mejora en la gestión de obras públicas.
+Este análisis ofrece una visión integral de la participación en festivales populares en Argentina, destacando las tendencias en la asistencia, la distribución geográfica de los eventos y los temas predominantes.
 
 ---
 
-## Proyecto 4: [Fiestas Populares en Argentina](https://github.com/AlvarezLI/PowerBi-CostumbresArg/tree/main)
+## Proyecto 5: [Análisis de Datos Musicales de Spotify](https://github.com/AlvarezLI/PowerBI_Spotify)  
+Este proyecto se enfoca en analizar los datos de canciones de **Spotify**, con el objetivo de explorar las características musicales y su relación con la popularidad de las canciones.
 
-Este proyecto se centra en el análisis de eventos y festividades populares en Argentina a través de un informe desarrollado en **Power BI**. Se busca explorar la asistencia a eventos, la ubicación de los mismos, y la temática de cada evento.
+### Fuente del Dataset
+El dataset utilizado en este proyecto fue descargado de [Kaggle](https://www.kaggle.com/datasets/nelgiriyewithana/top-spotify-songs-2023), el cual contiene información detallada sobre características musicales de las canciones, como el tempo, la valencia, la energía y la popularidad.
 
-### Fuente del conjunto de datos
-El conjunto de datos utilizado en este proyecto es una recopilación de información sobre eventos y festividades populares en Argentina, que incluye detalles como la cantidad de asistentes, la ubicación de los eventos, y la temática de cada evento.
+### Técnicas de Preprocesamiento de Datos
+- **Extracción de Datos**: Se utilizó el conjunto de datos para extraer información relevante sobre las canciones para el análisis.
+- **Visualización de Datos**: Se crearon visualizaciones para explorar la distribución de las características musicales y su relación con la popularidad de las canciones.
 
-### Técnicas de análisis y preprocesamiento de datos
-Para preparar y analizar los datos, se utilizaron las siguientes técnicas:
-
-- **Control de valores nulos**: Se manejaron adecuadamente los valores faltantes para asegurar la integridad del conjunto de datos.
-- **Codificación de variables categóricas**: Se transformaron las características categóricas en valores numéricos, lo cual es fundamental para el análisis de datos.
-  
-### Visualización y análisis
-Se desarrolló un dashboard en Power BI que permite explorar diferentes aspectos de los eventos:
-
-- **Asistentes**: Incluye gráficos que muestran la cantidad de asistentes por mes, año y tipo de entrada, junto con KPIs que resaltan la asistencia total y promedio a eventos.
-- **Información**: Presenta un mapa que muestra la distribución de eventos por provincia, un KPI de eventos únicos y un gráfico de asistentes promedio por provincia.
-- **Temática**: Permite explorar la temática de los eventos, mostrando la clasificación por tipo de entrada y la cantidad de eventos según su temática principal, además de KPIs relevantes como el evento más popular.
+### Visualización y Análisis
+Se crearon varias visualizaciones para explorar diferentes aspectos de las canciones:
+- **Distribución del Tempo**: Un histograma muestra la distribución de los tempos de las canciones.
+- **Energía vs Popularidad**: Un gráfico de dispersión fue diseñado para ilustrar la relación entre la energía de las canciones y su popularidad.
 
 ### Resultados Clave
-Este análisis proporciona una visión integral de la participación en festividades populares en Argentina, destacando tendencias en la asistencia, distribución geográfica de los eventos, y temáticas predominantes. Los insights obtenidos son útiles para la planificación de futuras festividades y la evaluación de la participación del público.
+Este análisis proporciona información sobre cómo las características musicales influyen en la popularidad de las canciones en Spotify, destacando las tendencias a través de diferentes géneros musicales.
 
 ---
-## Proyecto 5: [Análisis de música en Spotify](https://github.com/AlvarezLI/PowerBI_Spotify)
 
-Este proyecto se centra en el análisis de datos de canciones en Spotify, con el objetivo de explorar las características musicales y la popularidad de diferentes pistas.
-
-### Fuente del conjunto de datos
-El conjunto de datos utilizado en este proyecto fue descargado de **Kaggle**, que proporciona información detallada sobre diversas canciones, incluyendo atributos como el tempo, la energía, la danza y la popularidad.
-
-### Técnicas de preprocesamiento de datos
-Se implementaron varias técnicas de preprocesamiento para preparar los datos para el análisis:
-
-- **Manejo de valores nulos**: Se identificaron y gestionaron los valores faltantes para mantener la calidad del conjunto de datos.
-- **Normalización de datos**: Se aplicó la normalización a las características numéricas para asegurar que todos los atributos contribuyan equitativamente al análisis.
-- **Codificación de variables categóricas**: Las características categóricas se transformaron en un formato adecuado para el análisis y la visualización.
-
-### Análisis y visualización
-Se realizaron diversos análisis y visualizaciones para obtener insights sobre las canciones:
-
-- **Distribución de características musicales**: Se exploraron gráficos que muestran la distribución de atributos como el tempo, la energía y la danza de las canciones.
-- **Relación entre popularidad y características**: Se analizaron gráficos de dispersión para observar cómo las diferentes características musicales afectan la popularidad de las canciones.
-- **Tendencias a lo largo del tiempo**: Se examinaron las tendencias en la popularidad de las canciones a lo largo del tiempo y cómo las características musicales han cambiado.
-
-### Resultados Clave
-Este análisis permitió identificar las características musicales que más influyen en la popularidad de las canciones en Spotify, así como las tendencias en el tiempo. Los insights obtenidos son valiosos para comprender cómo las preferencias de los oyentes cambian y qué atributos musicales son más atractivos.
+Siéntete libre de explorar cada proyecto para obtener detalles más profundos sobre mi recorrido en ciencia de datos. Para más información sobre cada uno de los proyectos, sigue los enlaces proporcionados a los repositorios de GitHub.
 
