@@ -3,7 +3,7 @@
 ¡Bienvenido a mi portafolio de ciencia de datos! En esta colección, encontrarás varios proyectos que demuestran mis habilidades en análisis de datos, aprendizaje automático y visualización de datos. El portafolio incluye proyectos tanto en **inglés** como en **español**, reflejando mis capacidades bilingües.
 
 ---
-#  Data Science Projects (English)
+#  Data Science Projects (English - Python)
 ---
 
 ## Proyecto 1: [Modelo de Comestibilidad de Hongos](https://github.com/AlvarezLI/ProjectDS-Mushrooms)  
@@ -49,7 +49,7 @@ Cada modelo fue evaluado utilizando métricas clave como:
 Se compararon los modelos para identificar el mejor ajuste para predecir los tipos de clima, y se realizó una **optimización de hiperparámetros** para mejorar los resultados.
 
 ---
-# Proyectos de Data Analytics (Español)
+# Proyectos de Data Analytics (Español - Excel, Tableau, PowerBI)
 ---
 
 ## Proyecto 3: [Análisis de Obras Públicas en Excel y Tableau](https://github.com/AlvarezLI/Excel-Tableau_PublicWorks)  
