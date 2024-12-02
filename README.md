@@ -6,47 +6,47 @@
 #  Data Science Projects (English - Python)
 ---
 
-## Proyecto 1: [Modelo de Comestibilidad de Hongos](https://github.com/AlvarezLI/ProjectDS-Mushrooms)  
-Este proyecto es parte de mi examen final para un curso de ciencia de datos, donde clasifiqué diferentes hongos en función de su comestibilidad.
+## Project 1: [Mushroom Edibility Model](https://github.com/AlvarezLI/ProjectDS-Mushrooms)  
+This project is part of my final exam for a data science course, where I classified different mushrooms based on their edibility.
 
 ### Fuente del Dataset
-El conjunto de datos utilizado en este proyecto es el **Mushroom Classification dataset** de Kaggle, que proporciona una descripción completa de las características de los hongos.
+The dataset used in this project is the **Mushroom Classification dataset** from Kaggle, which provides a comprehensive description of mushroom characteristics.
 
-### Técnicas de Preprocesamiento de Datos
-Se emplearon diversas técnicas de filtrado para preparar los datos, incluyendo:
-- **Revisión de Valores Nulos**: Se garantizó la integridad del conjunto de datos manejando adecuadamente los valores faltantes.
-- **Codificación de Variables Categóricas**: Se transformaron las características categóricas en valores numéricos para un entrenamiento efectivo de los modelos de aprendizaje automático.
+### Data Preprocessing Techniques  
+Various filtering techniques were employed to prepare the data, including:  
+- **Null Value Checks**: Ensured the dataset's integrity by appropriately handling missing values.  
+- **Categorical Variable Encoding**: Transformed categorical features into numerical values for effective machine learning training.  
 
-### Algoritmos de Aprendizaje Automático
-Se aplicaron los siguientes algoritmos para predecir la comestibilidad de los hongos:
-- **Random Forest Classifier**
-- **Support Vector Machine (SVM)**
-- **Logistic Regression**
+### Machine Learning Algorithms  
+The following algorithms were applied for data analysis and classification:  
+- **Random Forest Classifier**  
+- **Support Vector Machine (SVM)**  
+- **Logistic Regression**  
 
 ---
 
-## Proyecto 2: [Modelo de Predicción del Clima](https://github.com/AlvarezLI/ProyectoDSII_ParteI)  
-En este proyecto, realicé un análisis profundo de un conjunto de datos sintético diseñado para clasificar diferentes tipos de clima.
+## Project 2: [Weather Prediction Model](https://github.com/AlvarezLI/ProyectoDSII_ParteI)  
+In this project, I conducted an in-depth analysis of a synthetic dataset designed to classify different weather types.
 
-### Técnicas de Preprocesamiento de Datos
-Se implementaron las siguientes técnicas para preparar los datos:
-- **Manejo e Imputación de Valores Nulos**: Se abordaron los valores faltantes para mantener la calidad del conjunto de datos.
-- **Codificación de Variables Categóricas**: Se convirtieron las variables categóricas en un formato adecuado para el entrenamiento de modelos.
-- **Eliminación de Valores Atípicos**: Se aplicó el método del rango intercuartílico (IQR) para eliminar valores atípicos.
+### Data Preprocessing Techniques  
+The following techniques were implemented to prepare the data:  
+- **Handling and Imputation of Missing Values**: Addressed missing values to maintain the dataset's quality.  
+- **Categorical Variable Encoding**: Converted categorical variables into a suitable format for model training.  
+- **Outlier Removal**: Applied the interquartile range (IQR) method to eliminate outliers.  
 
-### Algoritmos de Aprendizaje Automático
-Se implementaron varios algoritmos de clasificación para predecir el tipo de clima, incluyendo:
-- **Random Forest Classifier**
-- **Gradient Boosting Machine (GBM)**
-- **Logistic Regression**
-- **Decision Tree Classifier**
+### Machine Learning Algorithms  
+Several classification algorithms were implemented to predict weather types, including:  
+- **Random Forest Classifier**  
+- **Gradient Boosting Machine (GBM)**  
+- **Logistic Regression**  
+- **Decision Tree Classifier**  
 
-### Optimización y Evaluación de Modelos
-Cada modelo fue evaluado utilizando métricas clave como:
-- **Precisión**: Medición de la corrección global de las predicciones.
-- **Matriz de Confusión**: Evaluación del rendimiento de los modelos de clasificación.
+### Model Optimization and Evaluation  
+Each model was evaluated using key metrics such as:  
+- **Accuracy**: Measurement of the overall correctness of predictions.  
+- **Confusion Matrix**: Assessment of classification model performance.  
 
-Se compararon los modelos para identificar el mejor ajuste para predecir los tipos de clima, y se realizó una **optimización de hiperparámetros** para mejorar los resultados.
+The models were compared to identify the best fit for predicting weather types, and **hyperparameter optimization** was performed to improve the results.  
 
 ---
 # Proyectos de Data Analytics (Español - Excel, Tableau, PowerBI)
