@@ -1,6 +1,6 @@
 # Portafolio Alvarez Luis Ignacio
 
-¡Bienvenido a mi portafolio de ciencia de datos! En esta colección, encontrarás varios proyectos que demuestran mis habilidades en análisis de datos, aprendizaje automático y visualización de datos. El portafolio incluye proyectos tanto en **inglés** como en **español**, reflejando mis capacidades bilingües.
+¡Bienvenido a mi portafolio de ciencia de datos! En esta colección, encontrarás varios proyectos que demuestran mis habilidades en análisis de datos, aprendizaje automático y visualización de datos. El portafolio incluye proyectos tanto en **inglés** como en **español**.
 
 ---
 #  Data Science Projects (English - Python)
