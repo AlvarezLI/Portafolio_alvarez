@@ -24,7 +24,7 @@
             text-align: center;
         }
         .project {
-            margin-bottom: 30px;
+            margin-bottom: 40px;
         }
         h2 {
             color: #0056b3;
@@ -56,7 +56,7 @@
         
         <h3>Data Preprocessing Techniques</h3>
         <ul>
-            <li><strong>Null Value Checks</strong>: Ensured the integrity of the dataset by handling missing values appropriately.</li>
+            <li><strong>Null Value Checks</strong>: Ensured the dataset's integrity by appropriately handling missing values.</li>
             <li><strong>Categorical Variable Encoding</strong>: Transformed categorical features into numerical values for effective machine learning training.</li>
         </ul>
         
@@ -77,8 +77,8 @@
         
         <h3>Data Preprocessing Techniques</h3>
         <ul>
-            <li><strong>Null Value Handling and Imputation</strong>: Addressed missing values to maintain dataset quality.</li>
-            <li><strong>Categorical Variable Encoding</strong>: Converted categorical variables into a format suitable for model training.</li>
+            <li><strong>Handling and Imputation of Missing Values</strong>: Addressed missing values to maintain the dataset's quality.</li>
+            <li><strong>Categorical Variable Encoding</strong>: Converted categorical variables into a suitable format for model training.</li>
             <li><strong>Outlier Removal</strong>: Applied the interquartile range (IQR) method to eliminate outliers.</li>
         </ul>
         
@@ -92,34 +92,37 @@
         
         <h3>Model Optimization and Evaluation</h3>
         <ul>
-            <li><strong>Accuracy</strong>: Measured the overall correctness of the predictions.</li>
-            <li><strong>Confusion Matrix</strong>: Assessed the performance of the classification models.</li>
+            <li><strong>Accuracy</strong>: Measurement of the overall correctness of predictions.</li>
+            <li><strong>Confusion Matrix</strong>: Assessment of classification model performance.</li>
         </ul>
-        <p>The models were compared to identify the best fit for predicting weather types, and hyperparameter tuning was performed to enhance results.</p>
+        <p>The models were compared to identify the best fit for predicting weather types, and hyperparameter optimization was performed to improve the results.</p>
     </div>
 
     <div class="project">
         <h2>Project 3: <a href="https://github.com/AlvarezLI/Animal-Recognition-CNN" target="_blank">Animal Recognition Using CNN</a></h2>
-        <p>In this project, I developed a Convolutional Neural Network (CNN) model to classify images of cats, dogs, and snakes. The focus was on building and refining a model for multi-class image recognition.</p>
+        <p>In this project, I developed and compared two distinct models for classifying images of animals (dogs, cats, and snakes): a simple CNN and an improved model leveraging transfer learning with MobileNetV2.</p>
         
         <h3>Dataset Source</h3>
-        <p>The dataset consists of 3,000 images (1,000 for each class), which I compiled and organized into folders for training and testing purposes.</p>
+        <p>The dataset consists of 3,000 JPG images, carefully segmented into three classes representing cats, dogs, and snakes. It was organized into training (80%) and testing (20%) sets.</p>
+        
+        <h3>Data Preprocessing Techniques</h3>
+        <ul>
+            <li><strong>Image Augmentation</strong>: Techniques like rotation, flipping, and zooming were used to enhance model generalization.</li>
+            <li><strong>Normalization</strong>: Scaled pixel values for better model convergence.</li>
+        </ul>
         
         <h3>Model Development</h3>
         <ul>
-            <li>Initial basic CNN model achieving 96% training and 97% validation accuracy.</li>
-            <li>Improved model with additional layers and techniques to enhance accuracy.</li>
+            <li><strong>Simple CNN Model</strong>: Achieved ~89% training accuracy but showed signs of overfitting with ~45% validation accuracy.</li>
+            <li><strong>Improved Model with MobileNetV2</strong>: Achieved 96% training and validation accuracy, demonstrating better generalization.</li>
         </ul>
-        
-        <h3>Results</h3>
-        <p>The improved CNN model demonstrated a significant boost in performance, achieving reliable accuracy for multi-class classification of animal images.</p>
     </div>
 
     <div class="section-title">Data Analytics Projects (En Español)</div>
 
     <div class="project">
-        <h2>Project 4: <a href="https://github.com/AlvarezLI/Excel-Tableau_PublicWorks" target="_blank">Análisis de Obras Públicas en Excel y Tableau</a></h2>
-        <p>En este proyecto, realicé un análisis extenso de los datos de obras públicas en Argentina, con el objetivo de obtener información sobre la distribución y el estado de las inversiones en infraestructura a nivel regional.</p>
+        <h2>Proyecto 4: <a href="https://github.com/AlvarezLI/Excel-Tableau_PublicWorks" target="_blank">Análisis de Obras Públicas en Excel y Tableau</a></h2>
+        <p>Este proyecto se enfoca en realizar un análisis extenso de los datos de obras públicas en Argentina. El objetivo fue obtener información sobre la distribución y el estado de las inversiones en infraestructura a nivel regional.</p>
         
         <h3>Fuente del Dataset</h3>
         <p>El dataset fue obtenido del Mapa de Inversiones del Ministerio de Obras Públicas de Argentina.</p>
@@ -133,8 +136,8 @@
     </div>
 
     <div class="project">
-        <h2>Project 5: <a href="https://github.com/AlvarezLI/PowerBi-CostumbresArg" target="_blank">Análisis de Festivales Populares en Argentina</a></h2>
-        <p>Este proyecto se enfoca en el análisis de eventos y festivales populares en Argentina, explorando su asistencia, ubicaciones y temáticas mediante Power BI.</p>
+        <h2>Proyecto 5: <a href="https://github.com/AlvarezLI/PowerBi-CostumbresArg" target="_blank">Análisis de Festivales Populares en Argentina</a></h2>
+        <p>Este proyecto analiza eventos y festivales populares en Argentina, explorando su asistencia, ubicaciones y temáticas mediante Power BI.</p>
         
         <h3>Fuente del Dataset</h3>
         <p>Compilación de información sobre eventos y festivales populares en Argentina.</p>
@@ -147,8 +150,8 @@
     </div>
 
     <div class="project">
-        <h2>Project 6: <a href="https://github.com/AlvarezLI/PowerBI_Spotify" target="_blank">Análisis de Datos Musicales de Spotify</a></h2>
-        <p>En este proyecto, analicé datos de canciones de Spotify para explorar características musicales y su relación con la popularidad.</p>
+        <h2>Proyecto 6: <a href="https://github.com/AlvarezLI/PowerBI_Spotify" target="_blank">Análisis de Datos Musicales de Spotify</a></h2>
+        <p>Este proyecto analiza datos de canciones de Spotify para explorar características musicales y su relación con la popularidad.</p>
         
         <h3>Fuente del Dataset</h3>
         <p>Dataset descargado de Kaggle, con información detallada sobre canciones populares en Spotify.</p>
@@ -160,4 +163,4 @@
         </ul>
     </div>
 </body>
-</html>
+</
